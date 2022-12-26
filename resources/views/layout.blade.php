@@ -8,5 +8,6 @@
 </head>
 <body>
 	
+<script scr="./Tri/tri.js"></script>
 </body>
 </html>
