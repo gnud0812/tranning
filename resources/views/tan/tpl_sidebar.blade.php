@@ -1,19 +1,31 @@
 <link rel="stylesheet" href="{{ asset('css/Tan/tan.css') }}">
 
 <div class="sidebar-wrapper">
+    <div class="sidebar-wrapper-img_wrapper">
+        <img src="{{ asset('images/Tri/images/logo.png') }}" alt="">
+    </div>
     <div class="sidebar">
         <ul>
-            <li class="">
-                <div class="">Navigation</div>
+            <li class="sidebar-item">
+                <div class="sidebar-item-name">Navigation</div>
                 <ul>
-                    <li>Dashboard</li>
-                    <li>Page layouts</li>
-                    <li>Navigation</li>
-                    <li>Widget</li>
+                    <li>
+                        <i class="feather icon-home"></i>
+                        Dashboard
+                    </li>
+                    <li>
+                        Page layouts
+                    </li>
+                    <li>
+                        Navigation
+                    </li>
+                    <li>
+                        Widget
+                    </li>
                 </ul>
             </li>
-            <li class="">
-                <div class="">UI Elements</div>
+            <li class="sidebar-item">
+                <div class="sidebar-item-name">UI Elements</div>
                 <ul>
                     <li>Basic Components</li>
                     <li>Advanced Components</li>
@@ -23,8 +35,8 @@
                     <li>Icons</li>
                 </ul>
             </li>
-            <li class="">
-                <div class="">Forms</div>
+            <li class="sidebar-item">
+                <div class="sidebar-item-name">Forms</div>
                 <ul>
                     <li>Form Components</li>
                     <li>Form Picker</li>
@@ -34,8 +46,8 @@
                     <li>Ready To Use</li>
                 </ul>
             </li>
-            <li class="">
-                <div class="">Table</div>
+            <li class="sidebar-item">
+                <div class="sidebar-item-name">Table</div>
                 <ul>
                     <li>Bootstrap Table</li>
                     <li>Data Table</li>
@@ -45,16 +57,16 @@
                     <li>Editable Table</li>
                 </ul>
             </li>
-            <li class="">
-                <div class="">Chart And Maps</div>
+            <li class="sidebar-item">
+                <div class="sidebar-item-name">Chart And Maps</div>
                 <ul>
                     <li>Charts</li>
                     <li>Maps</li>
                     <li>Landing Page</li>
                 </ul>
             </li>
-            <li class="">
-                <div class="">Pages</div>
+            <li class="sidebar-item">
+                <div class="sidebar-item-name">Pages</div>
                 <ul>
                     <li>Authentication</li>
                     <li>Maintenance</li>
@@ -63,8 +75,8 @@
                     <li>Email</li>
                 </ul>
             </li>
-            <li class="">
-                <div class="">App</div>
+            <li class="sidebar-item">
+                <div class="sidebar-item-name">App</div>
                 <ul>
                     <li>Chat</li>
                     <li>Social</li>
@@ -75,8 +87,8 @@
                     <li>Job Search</li>
                 </ul>
             </li>
-            <li class="">
-                <div class="">Extension</div>
+            <li class="sidebar-item">
+                <div class="sidebar-item-name">Extension</div>
                 <ul>
                     <li>Editor</li>
                     <li>Invoice</li>
@@ -86,16 +98,16 @@
                     <li>Change Loges</li>
                 </ul>
             </li>
-            <li class="">
-                <div class="">Other</div>
+            <li class="sidebar-item">
+                <div class="sidebar-item-name">Other</div>
                 <ul>
                     <li>Menu Levels</li>
                     <li>Disable Menu</li>
                     <li>Sample Page</li>
                 </ul>
             </li>
-            <li class="">
-                <div class="">Support</div>
+            <li class="sidebar-item">
+                <div class="sidebar-item-name">Support</div>
                 <ul>
                     <li>Documentation</li>
                     <li>Submit Issue</li>

@@ -1,6 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     width: 100%;
     height: 5000px;
+    font-family: "OpenSans", sans-serif;
 }
 
 .sidebar-wrapper {
@@ -10,4 +17,29 @@ body {
     top: 0;
     bottom: 0;
     overflow-y: scroll;
+    /* overflow: visible; */
+    background-color: #404E67;
+    color: #dcdcdc;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sidebar-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar-wrapper-img_wrapper {
+    width: 100%;
+    box-shadow: 0 0 11px rgb(0 0 0 / 13%);;
+    padding: 10px;
+}
+
+.sidebar-wrapper-img_wrapper img {
+    padding-top: 3px;
+}
+
+.sidebar-item-name {
+    padding: 25px 20px 10px;
+    color: #999;
+    line-height: 1.5;
 }
