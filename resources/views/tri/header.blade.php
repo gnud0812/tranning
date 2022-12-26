@@ -13,7 +13,6 @@
                         <i class="feather icon-more-horizontal"></i>
                     </a>
                 </div>
-
                 <div class="navbar-container container-fluid">
                     <ul class="nav-left">
                         <li class="header-search">
