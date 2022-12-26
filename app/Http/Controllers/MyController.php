@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class MyController extends Controller
 {
     public function index() {
-        return view('layout');
+        return view('layouts.layout');
     }
 }
