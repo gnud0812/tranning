@@ -4,20 +4,14 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100%;
-    height: 5000px;
-    font-family: "OpenSans", sans-serif;
-}
-
 .sidebar-wrapper {
+    font-family: "Open Sans";
     width:240px;
     float:left;
     position: fixed;
     top: 0;
     bottom: 0;
     overflow-y: scroll;
-    /* overflow: visible; */
     background-color: #404E67;
     color: #dcdcdc;
     font-size: 14px;
@@ -43,3 +37,43 @@ body {
     color: #999;
     line-height: 1.5;
 }
+
+.sidebar-item-child {
+    padding: 8px 15px;
+    color: #dcdcdc;
+}
+
+.sidebar-item-child:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sidebar-item-child-icon {
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.sidebar-item-child.active {
+    font-weight: 600;
+    /* border-left: 3px solid #FE8A7D; */
+    position: relative;
+}
+
+.sidebar-item-child.active::before {
+    content:" ";
+    position: absolute;
+    background-color: #FE8A7D;
+    top:0;
+    height: 35px;
+    width: 3px;
+    left: 0;
+}
+
+.sidebar-item-right-angle {
+    position: absolute;
+    right: 12px;
+}
+
+/* .sidebar-item-child.active .sidebar-item-right-angle {
+    display: block;
+} */
