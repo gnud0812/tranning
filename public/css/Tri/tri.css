@@ -1,4 +1,58 @@
-.navbar {
-	display: flex
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
+.pcoded-container {
+	min-height: 56px;
+	margin-left: 240px;
+	/*width: 100vw;*/
+	background-color: #ccc;
+}
+#pcoded,
+.navbar-wrapper,
+.navbar-container,
+.navbar-logo,
+.nav-left,
+.nav-right
+{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.img-radius {
+	height: 30px;
+	width: 30px;
+	border-radius:2px;
+	margin-right: 5px;	
+}
+
+.nav-right {
+	justify-content: flex-end;
+	padding-right: 20px;
+}
+
+.dropdown-toggle {
+	display: flex;
+	align-items:center;
+}
+
+.morphsearch-search {
+	padding: 0 40px 0 30px;
+}
+
+.full-screenn {
+	text-decoration: none;
+	color: black;
+}
+
+.dropdown-toggle,
+.dropdown-primary {
+	padding: 0 7px;
+}
+
+.text {
+	padding: 0 4px;
+}
